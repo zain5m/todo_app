@@ -1,0 +1,28 @@
+{
+  "error_add_task": "An error occurred while adding the task",
+  "success_add_task": "The task has been added successfully",
+  "error_delete_task": "An error occurred while deleting the task",
+  "success_delete_task": "The task was deleted successfully",
+  "error_update_task": "An error occurred while updating the task",
+  "success_update_task": "The task has been updated successfully",
+  "error_get_task": "An error occurred while fetching data",
+  "success_get_task": "Data fetched successfully",
+  "myTitle": "My Tasks",
+  "new_task": "New Tasks ✨",
+  "done_task": "Done Tasks \uD83D\uDCAB",
+  "addNewTask":"Add New ",
+  "task": "Task",
+  "emptyTask":"There are no tasks.",
+  "emptyDoneTask":"There are no Done tasks.",
+  "emptyNewTask":"There are no New tasks.",
+  "titleOfTitleTextField": "What are you planing\uD83D\uDE07?",
+  "addNote":"Add Note",
+  "time": "Time",
+  "date":"Date",
+  "deleteTask": "Delete Task",
+  "addTask":"Add Task",
+  "oopsMsg": "Oops!",
+  "areYouSure":"Are You Sure?",
+  "this_task_was_deleted": "this task was deleted"
+
+}
