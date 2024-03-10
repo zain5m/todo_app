@@ -1,16 +1,32 @@
-# todo_tesk
-
-A new Flutter project.
+# TODO_App
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- First we want to make sure that we have generated all the necessary code for translation files,
+  models files, and service files
 
-A few resources to get you started if this is your first Flutter project:
+### Generate models serialization files using build runner:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+dart run build_runner build --delete-conflicting-outputs
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Generate Assets files using flutter gen:
+
+```bash
+fluttergen
+```
+
+### Generate Easy localization files:
+
+```bash
+dart run easy_localization:generate --source-dir ./assets/i18n/ --output-dir ./lib/core/config/localization/
+```
+
+```bash
+dart run easy_localization:generate --source-dir ./assets/i18n -f keys -o locale_keys.g.dart  --output-dir ./lib/core/config/localization/
+```
+
+---
+
+**_CREATED BY ZAIN_**
